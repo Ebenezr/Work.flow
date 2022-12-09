@@ -3,12 +3,15 @@ import React from "react";
 const StatsData = () => {
   return (
     <article className="flex gap-6">
-      <div className="flex h-60  w-1/2 flex-col gap-6 rounded-md border-[1px] border-gray-200 bg-white p-6">
+      {/* card */}
+      <div className="flex h-72  w-1/2 flex-col gap-6 rounded-md border-[1px] border-gray-200 bg-white p-6">
         {/* article header */}
-        <div className="flex items-center justify-between">
-          <p className="font-semibold text-neutral-600">Job Applied</p>
+        <div className="flex items-center justify-between gap-3">
+          <p className="whitespace-nowrap font-semibold text-neutral-600">
+            Job Applied
+          </p>
           <div className="flex items-center gap-3">
-            <button className="flex items-center gap-2 rounded-md bg-neutral-100 px-4 py-[3px]  font-semibold">
+            <button className="flex items-center gap-2 rounded-md bg-neutral-100 px-4 py-[3px]  font-semibold hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
               <>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +30,7 @@ const StatsData = () => {
               </>
               Filter
             </button>
-            <button className="flex items-center gap-2 rounded-md bg-neutral-100 px-4 py-[3px] font-semibold">
+            <button className="flex items-center gap-2 whitespace-nowrap rounded-md bg-neutral-100 px-4 py-[3px] font-semibold hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
               Last Year
               <>
                 <svg
@@ -52,11 +55,13 @@ const StatsData = () => {
         <div className="h-full w-full bg-neutral-100"></div>
       </div>
       {/* card */}
-      <div className="flex h-60 w-1/2 flex-col gap-6 rounded-md border-[1px] border-gray-200 bg-white p-6">
-        <div className="flex items-center justify-between">
-          <p className="font-semibold text-neutral-600">Project Overview</p>
+      <div className="flex h-72 w-1/2 flex-col gap-6 rounded-md border-[1px] border-gray-200 bg-white p-6">
+        <div className="flex items-center justify-between gap-3">
+          <p className="whitespace-nowrap font-semibold text-neutral-600">
+            Project Overview
+          </p>
           <div className="flex items-center gap-3">
-            <button className="flex items-center gap-2 rounded-md bg-neutral-100 px-4 py-[3px] font-semibold">
+            <button className="flex items-center gap-2 whitespace-nowrap rounded-md bg-neutral-100 px-4 py-[3px] font-semibold outline-0 ring-0 hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
               <>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -80,16 +85,62 @@ const StatsData = () => {
         {/* content */}
         <div className="flex h-full w-full flex-col">
           <div className="flex items-center gap-3">
-            <p className="text-xl font-semibold text-neutral-700">48</p>
+            <p className="text-xl font-semibold text-neutral-700">36</p>
             <p className="m-0 p-0 text-sm font-semibold text-neutral-700 ">
               Project
             </p>
           </div>
           {/* content */}
-          <div className="flex-1"></div>
+          <div className="mt-3 flex flex-1 flex-col gap-4">
+            <div className="flex gap-2">
+              {/* wrapper */}
+              <div className="flex w-1/3 flex-col">
+                {/* progress */}
+                <div className="h-4 w-full  rounded-md bg-blue-400"></div>
+                {/* text */}
+                <p className="mt-2 flex-1 font-semibold tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
+                  Signed
+                </p>
+
+                {/* count */}
+                <div className="my-2 flex items-center gap-2">
+                  <div className="h-4 w-4 rounded-full bg-blue-400"></div>
+                  <p>12</p>
+                </div>
+              </div>
+              {/* wrapper */}
+              <div className="flex w-1/3 flex-col">
+                {/* progress */}
+                <div className="h-4 w-full  rounded-md bg-green-400"></div>
+                {/* text */}
+                <p className="mt-2 flex-1 font-semibold tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
+                  Manager Review
+                </p>
+                {/* count */}
+                <div className="my-2 flex items-center gap-2">
+                  <div className="h-4 w-4 rounded-full bg-green-400"></div>
+                  <p>12</p>
+                </div>
+              </div>
+              {/* wrapper */}
+              <div className="flex w-1/3 flex-col">
+                {/* progress */}
+                <div className="h-4 w-full  rounded-md bg-orange-400"></div>
+                {/* text */}
+                <p className="mt-2 flex-1 font-semibold tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
+                  Client Review
+                </p>
+                {/* count */}
+                <div className="my-2 flex items-center gap-2">
+                  <div className="h-4 w-4 rounded-full bg-orange-400"></div>
+                  <p>12</p>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* button wrapper */}
           <div className="px-4">
-            <button className="mx-auto flex w-full items-center justify-center gap-3 rounded-md border-2 px-6 py-3 font-semibold text-neutral-700">
+            <button className="mx-auto flex w-full items-center justify-center gap-3 rounded-md border-2 px-6 py-2 font-semibold text-neutral-700 outline-none hover:bg-neutral-200">
               View all projects
               <>
                 <svg

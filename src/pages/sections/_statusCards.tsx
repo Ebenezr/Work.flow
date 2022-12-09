@@ -23,7 +23,7 @@ const StatusCards = () => {
         </div>
         {/* text wrapper */}
         <div className="flex flex-col">
-          <p className="font-medium text-neutral-400">Total Employee</p>
+          <p className="font-medium text-neutral-400 ">Total Employee</p>
 
           <p className="text-lg font-bold">212</p>
         </div>

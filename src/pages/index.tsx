@@ -4,6 +4,7 @@ import Head from "next/head";
 import { trpc } from "../utils/trpc";
 import Header from "./sections/_header";
 import SectionTitle from "./sections/_sectionTitle";
+import StatusCards from "./sections/_statusCards";
 
 const Home: NextPage = () => {
   return (
@@ -17,9 +18,11 @@ const Home: NextPage = () => {
         {/* header */}
         <Header />
         {/* main panel */}
-        <section className="h-full w-full p-6">
+        <section className="flex h-full w-full flex-col gap-6 p-6">
           {/* section title */}
           <SectionTitle />
+          {/* status cards */}
+          <StatusCards />
         </section>
       </main>
     </>

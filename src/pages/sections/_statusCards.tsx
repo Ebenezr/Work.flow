@@ -3,9 +3,9 @@ import React from "react";
 const StatusCards = () => {
   return (
     <div className="flex gap-6">
-      <div className="flex h-28  w-1/4  min-w-min items-center gap-3 rounded-md border-[1px] border-gray-200 bg-white p-4">
+      <div className="flex h-28  w-1/4  min-w-min items-center gap-3 rounded-md border-[1px] border-gray-200 bg-white p-6">
         {/* icon wrapper */}
-        <div className="grid h-10 w-10 place-items-center rounded-full bg-green-100 ">
+        <div className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-green-100 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -28,9 +28,9 @@ const StatusCards = () => {
           <p className="text-lg font-bold">212</p>
         </div>
       </div>
-      <div className="flex h-28 w-1/4 min-w-min items-center gap-3 rounded-md border-[1px] border-gray-200 bg-white p-4 ">
+      <div className="flex h-28 w-1/4 min-w-min items-center gap-3 rounded-md border-[1px] border-gray-200 bg-white p-6 ">
         {/* icon wrapper */}
-        <div className="grid h-10 w-10 place-items-center rounded-full bg-yellow-100 ">
+        <div className="grid h-10 w-10  shrink-0 place-items-center rounded-full bg-yellow-100 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -54,9 +54,9 @@ const StatusCards = () => {
           </p>
         </div>
       </div>
-      <div className="flex h-28 w-1/4 min-w-min items-center gap-3 rounded-md border-[1px] border-gray-200 bg-white p-4 ">
+      <div className="flex h-28 w-1/4 min-w-min items-center gap-3 rounded-md border-[1px] border-gray-200 bg-white p-6 ">
         {/* icon wrapper */}
-        <div className="grid h-10 w-10 place-items-center rounded-full bg-purple-100 ">
+        <div className="grid h-10  w-10 shrink-0 place-items-center rounded-full bg-purple-100 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -81,9 +81,9 @@ const StatusCards = () => {
           </p>
         </div>
       </div>
-      <div className="flex h-28 w-1/4 min-w-min items-center gap-3 rounded-md border-[1px] border-gray-200 bg-white p-4 ">
+      <div className="flex h-28 w-1/4 min-w-min items-center gap-3 rounded-md border-[1px] border-gray-200 bg-white p-6 ">
         {/* icon wrapper */}
-        <div className="grid h-10 w-10 place-items-center rounded-full bg-blue-100 ">
+        <div className="grid  h-10 w-10 shrink-0 place-items-center rounded-full bg-blue-100 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

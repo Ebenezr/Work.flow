@@ -47,6 +47,8 @@ const defaultData = mockUsers;
 const EmployeeStatus = () => {
   const [limit, setLimit] = React.useState(10);
   const [page, setPage] = React.useState(1);
+  const [sortColumn, setSortColumn] = React.useState();
+  const [sortType, setSortType] = React.useState();
 
   const handleChangeLimit = (dataKey: number) => {
     setPage(1);
@@ -100,7 +102,7 @@ const EmployeeStatus = () => {
             <Cell dataKey="teamLead" />
           </Column>
 
-          <Column width={200}>
+          <Column flexGrow={1}>
             <HeaderCell>Status</HeaderCell>
             <Cell>
               {(rowData) => (

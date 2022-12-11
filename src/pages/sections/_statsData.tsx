@@ -98,7 +98,7 @@ const StatsData = () => {
                 {/* progress */}
                 <div className="h-4 w-full  rounded-md bg-blue-400"></div>
                 {/* text */}
-                <p className="mt-2 flex-1 font-semibold tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
+                <p className="mt-2 flex-1 font-medium tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
                   Signed
                 </p>
 
@@ -113,7 +113,7 @@ const StatsData = () => {
                 {/* progress */}
                 <div className="h-4 w-full  rounded-md bg-green-400"></div>
                 {/* text */}
-                <p className="mt-2 flex-1 font-semibold tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
+                <p className="mt-2 flex-1 font-medium tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
                   Manager Review
                 </p>
                 {/* count */}
@@ -127,7 +127,7 @@ const StatsData = () => {
                 {/* progress */}
                 <div className="h-4 w-full  rounded-md bg-orange-400"></div>
                 {/* text */}
-                <p className="mt-2 flex-1 font-semibold tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
+                <p className="mt-2 flex-1 font-medium tracking-wide text-neutral-400 sm:text-xs md:text-xs lg:text-base">
                   Client Review
                 </p>
                 {/* count */}

@@ -11,7 +11,7 @@ const StatsData = () => {
             Job Applied
           </p>
           <div className="flex items-center gap-3">
-            <button className="flex items-center gap-2 rounded-md bg-neutral-100 px-4 py-[3px]  font-semibold hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
+            <button className="font-base flex items-center gap-2 rounded-md bg-neutral-100 px-4  py-[3px] hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
               <>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const StatsData = () => {
               </>
               Filter
             </button>
-            <button className="flex items-center gap-2 whitespace-nowrap rounded-md bg-neutral-100 px-4 py-[3px] font-semibold hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
+            <button className="font-base flex items-center gap-2 whitespace-nowrap rounded-md bg-neutral-100 px-4 py-[3px] hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
               Last Year
               <>
                 <svg
@@ -61,7 +61,7 @@ const StatsData = () => {
             Project Overview
           </p>
           <div className="flex items-center gap-3">
-            <button className="flex items-center gap-2 whitespace-nowrap rounded-md bg-neutral-100 px-4 py-[3px] font-semibold outline-0 ring-0 hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
+            <button className="font-base flex items-center gap-2 whitespace-nowrap rounded-md bg-neutral-100 px-4 py-[3px] outline-0 ring-0 hover:bg-neutral-200 sm:text-xs md:text-xs lg:text-base">
               <>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ const StatsData = () => {
           </div>
           {/* button wrapper */}
           <div className="px-4">
-            <button className="mx-auto flex w-full items-center justify-center gap-3 rounded-md border-2 px-6 py-2 font-semibold text-neutral-700 outline-none hover:bg-neutral-200">
+            <button className="font-base mx-auto flex w-full items-center justify-center gap-3 rounded-md border-2 px-6 py-2 text-neutral-700 outline-none hover:bg-neutral-200">
               View all projects
               <>
                 <svg

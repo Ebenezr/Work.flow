@@ -88,22 +88,30 @@ const EmployeeStatus = () => {
       <div>
         <Table data={defaultData}>
           <Column flexGrow={2} align="left" fixed>
-            <HeaderCell>Employee Name</HeaderCell>
+            <HeaderCell className="font-semibold tracking-wide">
+              Employee Name
+            </HeaderCell>
             <Cell dataKey="employeeName" />
           </Column>
 
           <Column flexGrow={2} fixed>
-            <HeaderCell>Job Title</HeaderCell>
+            <HeaderCell className="font-semibold tracking-wide">
+              Job Title
+            </HeaderCell>
             <Cell dataKey="jobTitle" />
           </Column>
 
           <Column flexGrow={2}>
-            <HeaderCell>Last Team Lead</HeaderCell>
+            <HeaderCell className="font-semibold tracking-wide">
+              Last Team Lead
+            </HeaderCell>
             <Cell dataKey="teamLead" />
           </Column>
 
           <Column flexGrow={1}>
-            <HeaderCell>Status</HeaderCell>
+            <HeaderCell className="font-semibold tracking-wide">
+              Status
+            </HeaderCell>
             <Cell>
               {(rowData) => (
                 <p
@@ -120,7 +128,7 @@ const EmployeeStatus = () => {
             </Cell>
           </Column>
         </Table>
-        <div style={{ padding: 20 }}>
+        <div style={{ padding: 20 }} className="text-neutral-400">
           <Pagination
             prev
             next
